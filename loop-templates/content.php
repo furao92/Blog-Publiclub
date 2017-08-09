@@ -59,6 +59,7 @@
             </div>
             <div id="categoria" class='<?php verb_lite_entry_categories(); ?>'>
               <?php verb_lite_entry_categories(); ?>
+              <?php single_cat_title('Categoria atual: '); ?>
             </div>
 <?php /*if($categoria0 == '<a href="http://localhost/blog/category/design/" rel="category tag">Design</a>') {echo "design"; } elseif($categoria0 == '<a href="http://localhost/blog/category/marketing/" rel="category tag">Marketing</a>') {echo "marketing"; } elseif($categoria0 == '<a href="http://localhost/blog/category/tecnologia/" rel="category tag">Tecnologia</a>') {echo "tecnologia"; } elseif($categoria0 == '<a href="http://localhost/blog/category/midias-sociais/" rel="category tag">Mídias Sociais</a>') {echo "midias-sociais"; }*/ ?>
         </div>

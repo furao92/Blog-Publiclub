@@ -165,36 +165,36 @@
           <div class="row">
             <div id="" class="col-md-12">
 
-              <div class="col-md-3" style="">
+              <div id="div-marketing">
                   <a href="category/marketing/">
                     <div class="hovereffect">
                       <img width="100%" src="marketing.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
                     </div>
-                      <div id="categoria" class=''> Marketing </div>
+                      <div id="categoria" class=''> <span id="p-marketing"> Marketing </span> </div>
                   </a>
               </div>
-              <div class="col-md-3" style="">
+              <div class="" id="div-tecnologia">
                 <a href="category/tecnologia/">
                   <div class="hovereffect">
                     <img width="100%" src="tecnologia.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
                   </div>
-                    <div id="categoria" class=''> Tecnologia </div>
+                    <div id="categoria" class=''> <span id="p-tecnologia"> Tecnologia </span> </div>
                 </a>
               </div>
-              <div class="col-md-3" style="">
+              <div id="div-sociais">
                 <a href="category/midias-sociais/">
                   <div class="hovereffect">
                     <img width="100%" src="midias-sociais.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
                   </div>
-                    <div id="categoria" class=''> Midias Sociais </div>
+                    <div id="categoria" class=''> <span id="p-sociais"> Midias Sociais </span> </div>
               </a>
               </div>
-              <div class="col-md-3" style="">
+              <div id="div-design">
                 <a href="category/design/">
                   <div class="hovereffect">
                     <img width="100%" src="design.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
                   </div>
-                    <div id="categoria" class=''> Design </div>
+                    <div id="categoria" class=''> <span id="p-design"> Design </span> </div>
                 </a>
               </div>
             </div>
