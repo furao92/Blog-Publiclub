@@ -368,7 +368,7 @@ a:focus {
     border-color: #37bf91;
     /*box-shadow: 0 -3px rgba(0, 0, 0, 0.1) inset, 0 -3px rgba(0, 0, 0, 0.1) inset, 0 1px rgba(0, 0, 0, 0.05);
     box-sizing: content-box;*/
-    
+
     color: #fff;
     cursor: pointer;
     text-shadow: 0 1px rgba(0, 0, 0, 0.15);
@@ -784,7 +784,7 @@ hr {
 }
 .widget-area .widget .widget-title {
     background: #f1f1f1 none repeat scroll 0 0;
-    border-left: 3px solid;
+    border-left: 5px solid;
     border-color: #0096e8;
     font-size: 14px;
     font-weight: 700;
@@ -795,6 +795,7 @@ hr {
     -webkit-padding-after: 9px;
     position: relative;
     text-transform: uppercase;
+    color: #004168;
 }
 .widget-area .widget ul {
     padding-left: 0px;
@@ -901,7 +902,7 @@ aside ul ul.children li:last-child {
 # Media Queries
 --------------------------------------------------------------*/
 
-@media (max-width: 979px) {} 
+@media (max-width: 979px) {}
 
 @media (max-width: 767px) {
     .header .margin-bottom-30 {
