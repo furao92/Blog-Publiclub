@@ -161,40 +161,54 @@
         </div>
       -->
 
+
+
+
+
+
+
+
       <div class="container">
           <div class="row">
             <div id="" class="col-md-12">
 
-              <div id="div-marketing">
+              <div class="div-categorias" id="div-marketing">
                   <a href="category/marketing/">
                     <div class="hovereffect">
-                      <img width="100%" src="marketing.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
+                      <img width="100%" src="http://localhost/blog/wp-content/uploads/2017/08/marketing.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
                     </div>
-                      <div id="categoria" class=''> <span id="p-marketing"> Marketing </span> </div>
+                      <div id="categoria" class=''> <span id="p-marketing" class="p-header"> Marketing </span> </div>
+                      <?php /*
+                        global $post;
+                        $args = array( 'numberposts' => 1, 'order' => 'DESC', 'category' => 'design', 'post__in'  => get_option( 'sticky_posts' ) );
+                        $myposts = get_posts( $args );
+                        foreach( $myposts as $post ) : setup_postdata($post); ?>
+                        <div id="categoria" class=''> <span id="p-marketing" class="p-header"> <?php the_title(); ?> </span> </div>
+                      <?php endforeach; */ ?>
                   </a>
               </div>
-              <div class="" id="div-tecnologia">
+              <div class="div-categorias" id="div-tecnologia">
                 <a href="category/tecnologia/">
                   <div class="hovereffect">
-                    <img width="100%" src="tecnologia.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
+                    <img width="100%" src="http://localhost/blog/wp-content/uploads/2017/08/tecnologia.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
                   </div>
-                    <div id="categoria" class=''> <span id="p-tecnologia"> Tecnologia </span> </div>
+                    <div id="categoria" class=''> <span id="p-tecnologia" class="p-header"> Tecnologia </span> </div>
                 </a>
               </div>
-              <div id="div-sociais">
+              <div class="div-categorias" id="div-sociais">
                 <a href="category/midias-sociais/">
                   <div class="hovereffect">
-                    <img width="100%" src="midias-sociais.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
+                    <img width="100%" src="http://localhost/blog/wp-content/uploads/2017/08/midias-sociais.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
                   </div>
-                    <div id="categoria" class=''> <span id="p-sociais"> Midias Sociais </span> </div>
+                    <div id="categoria" class=''> <span id="p-sociais" class="p-header"> Midias Sociais </span> </div>
               </a>
               </div>
-              <div id="div-design">
+              <div class="div-categorias" id="div-design">
                 <a href="category/design/">
                   <div class="hovereffect">
-                    <img width="100%" src="design.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
+                    <img width="100%" src="http://localhost/blog/wp-content/uploads/2017/08/design.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
                   </div>
-                    <div id="categoria" class=''> <span id="p-design"> Design </span> </div>
+                    <div id="categoria" class=''> <span id="p-design" class="p-header"> Design </span> </div>
                 </a>
               </div>
             </div>
