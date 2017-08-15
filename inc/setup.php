@@ -102,6 +102,6 @@ add_filter( 'excerpt_more', 'verb_lite_custom_excerpt_more' );
 * Adds a custom read more link to all excerpts, manually or automatically generated
 */
 function verb_lite_all_excerpts_get_more_link($post_excerpt) {
-    return $post_excerpt . '<p><a class="read-more btn btn-secondary" href="'. esc_url( get_permalink( get_the_ID() ) ) . '">' . __('Read More', 'verb-lite') . '</a></p>';
+    //return $post_excerpt . '<p><a class="read-more btn btn-secondary" href="'. esc_url( get_permalink( get_the_ID() ) ) . '">' . __('Continuar lendo', 'verb-lite') . '</a></p>';
 }
 add_filter('excerpt_more', 'verb_lite_all_excerpts_get_more_link');
