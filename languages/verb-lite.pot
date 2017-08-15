@@ -612,7 +612,7 @@ msgid "Primary Menu"
 msgstr ""
 
 #: inc/setup.php:99
-msgid "Read More"
+msgid "Continue Lendo"
 msgstr ""
 
 #: inc/template-tags.php:28

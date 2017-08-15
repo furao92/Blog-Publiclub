@@ -24,17 +24,26 @@ function verb_lite_posted_on() {
 		esc_html( get_the_modified_date() )
 	);
 
+	/* original
 	$posted_on = sprintf(
 		_x( 'on %s', 'post date', 'verb-lite' ),
 		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 	);
+	*/
 
+	$posted_on = sprintf(
+		_x( '%s', 'post date', 'verb-lite' ),
+		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
+	);
+
+	/*
 	$byline = sprintf(
 		_x( 'by %s', 'post author', 'verb-lite' ),
 		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
 	);
+	*/
 
-	echo '<span class="byline"> ' . $byline . '</span> <span class="posted-on">' . $posted_on . '</span>';
+	echo '<span class="byline"> '. /*. $byline .*/ '</span> <span class="posted-on">' . $posted_on . '</span>';
 
 }
 endif;
@@ -49,12 +58,28 @@ function verb_lite_entry_categories() {
 		/* translators: used between list items, there is a space after the comma */
 		$categories_list = get_the_category_list( __( ' ', 'verb-lite' ) );
 		if ( $categories_list && verb_lite_categorized_blog() ) {
-			printf( '<span class="cat-links">' . __( '%1$s', 'verb-lite' ) . '</span>', $categories_list );
-
-
+			printf(__( '%1$s', 'verb-lite' ), $categories_list );
 		}
 	}
 }
+
+
+function verb_lite_entry_categories_2() {
+	// Hide category and tag text for pages.
+	if ( 'post' == get_post_type() ) {
+		$categories_list_2 = get_the_category_list( __( ' ', '' ) );
+		$categories_list_2 = str_replace('<a href="http://localhost/blog/category/tecnologia/" rel="category tag">Tecnologia</a>', 'p-tecnologia', $categories_list_2);
+		$categories_list_2 = str_replace('<a href="http://localhost/blog/category/midias-sociais/" rel="category tag">Mídias Sociais</a>', 'p-sociais', $categories_list_2);
+		$categories_list_2 = str_replace('<a href="http://localhost/blog/category/design/" rel="category tag">Design</a>', 'p-design', $categories_list_2);
+		$categories_list_2 = str_replace('<a href="http://localhost/blog/category/marketing/" rel="category tag">Marketing</a>', 'p-marketing', $categories_list_2);
+
+
+		if ( $categories_list_2 && verb_lite_categorized_blog() ) {
+			printf(__( '%1$s', 'verb-lite' ), $categories_list_2 );
+		}
+	}
+}
+
 endif;
 
 if ( ! function_exists( 'verb_lite_entry_footer' ) ) :
@@ -83,7 +108,7 @@ function verb_lite_entry_comments() {
 
 	if (  ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
 		echo '<i class="fa fa-comments-o"></i> <span class="comments-link">';
-		comments_popup_link( __( '0 comments', 'verb-lite' ), __( '1 comment', 'verb-lite' ), __( '% comments', 'verb-lite' ) );
+		comments_popup_link( __( 'Nenhum comentário', 'verb-lite' ), __( '1 comentário', 'verb-lite' ), __( '% comentários', 'verb-lite' ) );
 		echo '</span>';
 	}
 }
