@@ -7,19 +7,24 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<header class="entry-header">
-        
-        <div class="entry-meta">
+
+        <!--
+				<div class="entry-meta">
             <?php verb_lite_entry_categories(); ?>
         </div><!-- .entry-meta -->
+
+				<div id="categoria-single" class=''>
+					<span id="<?php verb_lite_entry_categories_2(); ?>"><?php verb_lite_entry_categories(); ?></span>
+				</div>
 
 		<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
 
 		<div class="row">
-        
+
             <div class="col-xs-8 col-sm-8 col-md-8">
 
                 <div class="entry-meta">
-                    <?php verb_lite_posted_on(); ?>
+                    <font color="black"> <b> Publicado em:</b> <?php verb_lite_posted_on(); ?> </font>
                 </div><!-- .entry-meta -->
 
             </div>
@@ -39,11 +44,11 @@
     <div class="post-thumbnail">
         <?php echo get_the_post_thumbnail( $post->ID, 'verb-lite-rectangle' ); ?>
     </div>
-    
+
 	<div class="entry-content">
 
 		<?php the_content(); ?>
-		
+
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'verb-lite' ),
