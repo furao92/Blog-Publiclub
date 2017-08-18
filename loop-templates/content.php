@@ -60,7 +60,7 @@
             <div id="categoria" class=''>
               <span id="<?php verb_lite_entry_categories_2(); ?>"><?php verb_lite_entry_categories(); ?></span>
             </div>
-<?php /*if($categoria0 == '<a href="http://localhost/blog/category/design/" rel="category tag">Design</a>') {echo "design"; } elseif($categoria0 == '<a href="http://localhost/blog/category/marketing/" rel="category tag">Marketing</a>') {echo "marketing"; } elseif($categoria0 == '<a href="http://localhost/blog/category/tecnologia/" rel="category tag">Tecnologia</a>') {echo "tecnologia"; } elseif($categoria0 == '<a href="http://localhost/blog/category/midias-sociais/" rel="category tag">Mídias Sociais</a>') {echo "midias-sociais"; }*/ ?>
+<?php /*if($categoria0 == '<a href="http://www.blog.publiclub.com.br/category/design/" rel="category tag">Design</a>') {echo "design"; } elseif($categoria0 == '<a href="http://www.blog.publiclub.com.br/category/marketing/" rel="category tag">Marketing</a>') {echo "marketing"; } elseif($categoria0 == '<a href="http://www.blog.publiclub.com.br/category/tecnologia/" rel="category tag">Tecnologia</a>') {echo "tecnologia"; } elseif($categoria0 == '<a href="http://www.blog.publiclub.com.br/category/midias-sociais/" rel="category tag">Mídias Sociais</a>') {echo "midias-sociais"; }*/ ?>
         </div>
 
         <div id="post-title0"> <?php the_title( sprintf( '<h4 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h4>' ); ?> </div>

@@ -18,6 +18,43 @@
 <?php wp_head(); ?>
 
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-87636313-6', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '110137033029132',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -79,6 +116,11 @@
 
                       <div class="navbar-header">
 
+                        <div class="col-md-12" id="menu-login2">
+                          <button type="button" id="cadastre2" class="navbar-btn btn btn-warning btn-rounded btn-register" onclick="location.href='https://www.publiclub.com.br/cadastro'">Cadastre seu Negócio</button>
+                        </div>
+
+                        
                           <!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
 
                           <button class="navbar-toggle hidden-lg-up" type="button" data-toggle="collapse" data-target=".exCollapsingNavbar">
@@ -109,8 +151,9 @@
                   <a role="button" class="login-popover" data-original-title="" title=""><span class="fa fa-sign-in fa-lg"></span> Login</a>
                   &nbsp;
                   <button type="button" class="navbar-btn btn btn-warning btn-rounded btn-register" onclick="location.href='https://www.publiclub.com.br/cadastro'">Cadastre seu Negócio</button>
-
                 </div>
+
+
 
 
                 <!--
@@ -175,7 +218,7 @@
               <div class="div-categorias" id="div-marketing">
                   <a href="category/marketing/">
                     <div class="hovereffect">
-                      <img width="100%" src="http://localhost/blog/wp-content/uploads/2017/08/marketing.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
+                      <img width="100%" src="http://www.blog.publiclub.com.br/wp-imagem/marketing.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
                     </div>
                       <div id="categoria" class=''> <span id="p-marketing" class="p-header"> Marketing </span> </div>
                       <?php /*
@@ -190,7 +233,7 @@
               <div class="div-categorias" id="div-tecnologia">
                 <a href="category/tecnologia/">
                   <div class="hovereffect">
-                    <img width="100%" src="http://localhost/blog/wp-content/uploads/2017/08/tecnologia.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
+                    <img width="100%" src="http://www.blog.publiclub.com.br/wp-imagem/tecnologia.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
                   </div>
                     <div id="categoria" class=''> <span id="p-tecnologia" class="p-header"> Tecnologia </span> </div>
                 </a>
@@ -198,7 +241,7 @@
               <div class="div-categorias" id="div-sociais">
                 <a href="category/midias-sociais/">
                   <div class="hovereffect">
-                    <img width="100%" src="http://localhost/blog/wp-content/uploads/2017/08/midias-sociais.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
+                    <img width="100%" src="http://www.blog.publiclub.com.br/wp-imagem/midias-sociais.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
                   </div>
                     <div id="categoria" class=''> <span id="p-sociais" class="p-header"> Midias Sociais </span> </div>
               </a>
@@ -206,7 +249,7 @@
               <div class="div-categorias" id="div-design">
                 <a href="category/design/">
                   <div class="hovereffect">
-                    <img width="100%" src="http://localhost/blog/wp-content/uploads/2017/08/design.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
+                    <img width="100%" src="http://www.blog.publiclub.com.br/wp-imagem/design.png" class="attachment-verb-lite-rectangle size-verb-lite-rectangle wp-post-image" alt="">
                   </div>
                     <div id="categoria" class=''> <span id="p-design" class="p-header"> Design </span> </div>
                 </a>

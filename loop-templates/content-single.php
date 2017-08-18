@@ -29,13 +29,14 @@
 
             </div>
 
-            <div class="col-xs-4 col-sm-4 col-md-4">
+          <!--
+					  <div class="col-xs-4 col-sm-4 col-md-4">
 
                 <div class="entry-meta pull-right">
                     <?php verb_lite_entry_comments(); ?>
-                </div><!-- .entry-meta -->
+                </div>
 
-            </div>
+            </div> -->
 
         </div>
 

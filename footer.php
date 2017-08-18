@@ -17,7 +17,7 @@
                 <?php dynamic_sidebar( 'footer' ); ?>
                 <div class="col-md-12">
                   <div class="col-md-12">
-                    <img src="http://localhost/blog/wp-content/uploads/2017/08/logo-branco.png" width="180">
+                    <img src="http://www.blog.publiclub.com.br/wp-imagem/logo-branco.png" width="180">
                     <br><br><br>
                   </div>
                 </div>
@@ -39,12 +39,12 @@
                     <hr>
                     <table width="100%">
                       <tr>
-                        <td align="center"><a href="https://www.facebook.com/publiclub.com.br"><img src="http://localhost/blog/wp-content/uploads/2017/08/facebook.png" width="50"></a></td>
-                        <td align="center"><a href="https://twitter.com/twitpubliclub"><img src="http://localhost/blog/wp-content/uploads/2017/08/twitter.png" width="50"></a></td>
-                        <td align="center"><a href="https://www.linkedin.com/company-beta/10801295"><img src="http://localhost/blog/wp-content/uploads/2017/08/linkedin.png" width="50"></a></td>
-                        <td align="center"><a href="https://plus.google.com/113319698580776536032"><img src="http://localhost/blog/wp-content/uploads/2017/08/google.png" width="50"></a></td>
-                        <td align="center"><a href="https://www.instagram.com/publiclub/"><img src="http://localhost/blog/wp-content/uploads/2017/08/instagram.png" width="50"></a></td>
-                        <td align="center"><a href="https://www.youtube.com/channel/UCGV1WXXo1abA9LR272VeqCA"><img src="http://localhost/blog/wp-content/uploads/2017/08/youtube.png" width="50"></a></td>
+                        <td align="center"><a href="https://www.facebook.com/publiclub.com.br"><img src="http://www.blog.publiclub.com.br/wp-imagem/facebook.png" width="50"></a></td>
+                        <td align="center"><a href="https://twitter.com/twitpubliclub"><img src="http://www.blog.publiclub.com.br/wp-imagem/twitter.png" width="50"></a></td>
+                        <td align="center"><a href="https://www.linkedin.com/company-beta/10801295"><img src="http://www.blog.publiclub.com.br/wp-imagem/linkedin.png" width="50"></a></td>
+                        <td align="center"><a href="https://plus.google.com/113319698580776536032"><img src="http://www.blog.publiclub.com.br/wp-imagem/google.png" width="50"></a></td>
+                        <td align="center"><a href="https://www.instagram.com/publiclub/"><img src="http://www.blog.publiclub.com.br/wp-imagem/instagram.png" width="50"></a></td>
+                        <td align="center"><a href="https://www.youtube.com/channel/UCGV1WXXo1abA9LR272VeqCA"><img src="http://www.blog.publiclub.com.br/wp-imagem/youtube.png" width="50"></a></td>
                       </tr>
                     </table>
                     <br>
@@ -64,7 +64,7 @@
                   <div class="col-md-4">
                     CONTATO
                     <hr>
-                   
+
                     <?php echo do_shortcode("[contact-form-7 id='245' title='rodapé']"); ?>
 
                   </div>
@@ -93,7 +93,7 @@
 
                         <span class="sep"> | </span>
 
-                        <a href="<?php echo esc_url( __( 'https://www.publiclub.com.br/politica_privacidade', 'verb-lite' ) ); ?>"><?php printf( __( 'Politicas de Privacidade', 'verb-lite' ), 'WordPress' ); ?></a>
+                        <a href="<?php echo esc_url( __( 'https://www.publiclub.com.br/politica_privacidade', 'verb-lite' ) ); ?>"><?php printf( __( 'Política de Privacidade', 'verb-lite' ), 'WordPress' ); ?></a>
 
 
                     </div><!-- .site-info -->

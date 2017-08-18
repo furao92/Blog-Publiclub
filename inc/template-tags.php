@@ -68,10 +68,11 @@ function verb_lite_entry_categories_2() {
 	// Hide category and tag text for pages.
 	if ( 'post' == get_post_type() ) {
 		$categories_list_2 = get_the_category_list( __( ' ', '' ) );
-		$categories_list_2 = str_replace('<a href="http://localhost/blog/category/tecnologia/" rel="category tag">Tecnologia</a>', 'p-tecnologia', $categories_list_2);
-		$categories_list_2 = str_replace('<a href="http://localhost/blog/category/midias-sociais/" rel="category tag">Mídias Sociais</a>', 'p-sociais', $categories_list_2);
-		$categories_list_2 = str_replace('<a href="http://localhost/blog/category/design/" rel="category tag">Design</a>', 'p-design', $categories_list_2);
-		$categories_list_2 = str_replace('<a href="http://localhost/blog/category/marketing/" rel="category tag">Marketing</a>', 'p-marketing', $categories_list_2);
+		$categories_list_2 = str_replace('<a href="http://www.blog.publiclub.com.br/category/tecnologia/" rel="category tag">Tecnologia</a>', 'p-tecnologia', $categories_list_2);
+		$categories_list_2 = str_replace('<a href="http://www.blog.publiclub.com.br/category/midias-sociais/" rel="category tag">Mídias Sociais</a>', 'p-sociais', $categories_list_2);
+		$categories_list_2 = str_replace('<a href="http://www.blog.publiclub.com.br/category/design/" rel="category tag">Design</a>', 'p-design', $categories_list_2);
+		$categories_list_2 = str_replace('<a href="http://www.blog.publiclub.com.br/category/marketing/" rel="category tag">Marketing</a>', 'p-marketing', $categories_list_2);
+		$categories_list_2 = str_replace('<a href="http://www.blog.publiclub.com.br/category/publiclub/" rel="category tag">Publiclub</a>', 'p-publiclub', $categories_list_2);
 
 
 		if ( $categories_list_2 && verb_lite_categorized_blog() ) {
@@ -93,7 +94,7 @@ function verb_lite_entry_footer() {
 		/* translators: used between list items, there is a space after the comma */
 		$tags_list = get_the_tag_list( '', __( ', ', 'verb-lite' ) );
 		if ( $tags_list ) {
-			printf( '<span class="tags-links">' . __( 'Tagged %1$s', 'verb-lite' ) . '</span>', $tags_list );
+			printf( '<span class="tags-links">' . __( '#tags:  %1$s', 'verb-lite' ) . '</span>', $tags_list );
 		}
 	}
 	edit_post_link( __( 'Edit', 'verb-lite' ), '<span class="edit-link">', '</span>' );
