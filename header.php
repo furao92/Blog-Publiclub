@@ -120,7 +120,7 @@
                           <button type="button" id="cadastre2" class="navbar-btn btn btn-warning btn-rounded btn-register" onclick="location.href='https://www.publiclub.com.br/cadastro'">Cadastre seu Negócio</button>
                         </div>
 
-                        
+
                           <!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
 
                           <button class="navbar-toggle hidden-lg-up" type="button" data-toggle="collapse" data-target=".exCollapsingNavbar">
@@ -148,7 +148,7 @@
                   </nav><!-- .site-navigation -->
                 </div>
                 <div class="col-md-4 pull-left" id="menu-login">
-                  <a role="button" class="login-popover" data-original-title="" title=""><span class="fa fa-sign-in fa-lg"></span> Login</a>
+                  <a role="button" class="login-popover" href="https://www.publiclub.com.br/index.php?route=account/login"><span class="fa fa-sign-in fa-lg"></span> Login</a>
                   &nbsp;
                   <button type="button" class="navbar-btn btn btn-warning btn-rounded btn-register" onclick="location.href='https://www.publiclub.com.br/cadastro'">Cadastre seu Negócio</button>
                 </div>
