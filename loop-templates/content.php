@@ -5,7 +5,7 @@
 ?>
 
 <div class="col-xs-6 col-sm-6 col-md-6">
-  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> style="min-height:575px">
+  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> style="min-height:579px">
 
 	<header class="entry-header">
 
